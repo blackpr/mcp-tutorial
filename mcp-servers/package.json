@@ -5,6 +5,7 @@
   "scripts": {
     "inspect:simple-server": "npx @modelcontextprotocol/inspector ts-node src/simpleServer.ts",
     "inspect:process-control-server": "npx @modelcontextprotocol/inspector ts-node src/processControlServer.ts",
+    "inspect:task-scheduling-server": "npx @modelcontextprotocol/inspector ts-node src/taskSchedulingServer.ts",
     "build": "tsc",
     "clean": "rimraf dist",
     "build:clean": "npm run clean && npm run build",
