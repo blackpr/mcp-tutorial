@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "simple": {
+      "command": "node",
+      "args": [
+        "/Users/blackpr/code/mcp/mcp-servers/dist/simpleServer.js"
+      ]
+    },
+    "process": {
+      "command": "node",
+      "args": [
+        "/Users/blackpr/code/mcp/mcp-servers/dist/processControlServer.js"
+      ]
+    },
+    "scheduler": {
+      "command": "node",
+      "args": [
+        "/Users/blackpr/code/mcp/mcp-servers/dist/taskSchedulingServer.js"
+      ]
+    },
+    "monitor": {
+      "command": "node",
+      "args": [
+        "/Users/blackpr/code/mcp/mcp-servers/dist/resourceMonitoringServer.js"
+      ]
+    }
+  }
+}
