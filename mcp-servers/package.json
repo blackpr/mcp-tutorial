@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "inspect:simple-server": "npx @modelcontextprotocol/inspector ts-node src/simpleServer.ts",
+    "inspect:process-control-server": "npx @modelcontextprotocol/inspector ts-node src/processControlServer.ts",
     "build": "tsc",
     "clean": "rimraf dist",
     "build:clean": "npm run clean && npm run build",
